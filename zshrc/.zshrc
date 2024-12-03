@@ -24,6 +24,7 @@ export VI_MODE_SET_CURSOR=true
 # User configuration
 
 alias vim="nvim"
+alias code="nvim"
 alias rc="vim ~/.zshrc && source ~/.zshrc"
 alias vmc="vim ~/.config/nvim"
 alias wtc="vim ~/.config/wezterm/"
