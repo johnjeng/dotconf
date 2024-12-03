@@ -25,8 +25,8 @@ export VI_MODE_SET_CURSOR=true
 
 alias vim="nvim"
 alias rc="vim ~/.zshrc && source ~/.zshrc"
-alias vrc="vim ~/.config/nvim"
-alias wrc="vim ~/.config/wezterm/"
+alias vmc="vim ~/.config/nvim"
+alias wtc="vim ~/.config/wezterm/"
 
 # alias pip="pip3"
 # alias python="python3"
