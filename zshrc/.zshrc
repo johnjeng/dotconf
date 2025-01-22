@@ -34,3 +34,10 @@ alias wtc="vim ~/.config/wezterm/"
 
 # git pull the current branch from origin - avoids pulling the world
 alias gpo="git pull origin $(git rev-parse --abbrev-ref HEAD)"
+
+# bun completions
+[ -s "/Users/johnjeng/.bun/_bun" ] && source "/Users/johnjeng/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
