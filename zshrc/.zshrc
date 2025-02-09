@@ -15,7 +15,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git asdf aliases vi-mode brew emoji-clock)
+plugins=(git aliases vi-mode brew emoji-clock)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -41,3 +41,6 @@ alias gpo="git pull origin $(git rev-parse --abbrev-ref HEAD)"
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+# mise
+eval "$(mise activate zsh)"
