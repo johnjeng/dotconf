@@ -36,11 +36,14 @@ alias wtc="vim ~/.config/wezterm/"
 alias gpo="git pull origin $(git rev-parse --abbrev-ref HEAD)"
 
 # bun completions
-[ -s "/Users/johnjeng/.bun/_bun" ] && source "/Users/johnjeng/.bun/_bun"
+# [ -s "/Users/johnjeng/.bun/_bun" ] && source "/Users/johnjeng/.bun/_bun"
 
 # bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
+# export BUN_INSTALL="$HOME/.bun"
+# export PATH="$BUN_INSTALL/bin:$PATH"
 
 # mise
-eval "$(mise activate zsh)"
+# eval "$(mise activate zsh)"
+
+export GIT_ROOT="$HOME/git"
+export HOMEBREW_BUNDLE_FILE="$HOME/.Brewfile"
