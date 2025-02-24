@@ -47,3 +47,11 @@ alias gpo="git pull origin $(git rev-parse --abbrev-ref HEAD)"
 
 export GIT_ROOT="$HOME/git"
 export HOMEBREW_BUNDLE_FILE="$HOME/.Brewfile"
+
+# SMAR
+alias cg="cd $HOME/git/core-views/packages/grid-views/"
+alias cw="cd $HOME/git/web-app-ui/apps/legacy-react-app/"
+export PATH="/Users/jjeng/.volta/bin:$PATH"
+
+alias fdmFull='cd $GIT_ROOT/core-views && source packages/scripts/src/fdmFullCoreViews.sh'
+
