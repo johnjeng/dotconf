@@ -25,9 +25,11 @@ export VI_MODE_SET_CURSOR=true
 
 alias vim="nvim"
 alias code="nvim"
+alias lvim="NVIM_APPNAME=lazy-vim nvim"
 alias rc="vim ~/.zshrc && source ~/.zshrc"
-alias vmc="vim ~/.config/nvim"
-alias wtc="vim ~/.config/wezterm/"
+alias vimrc="vim ~/.config/nvim"
+alias wezrc="vim ~/.config/wezterm/"
+alias brewrc="vim ~/Brewfile"
 
 # alias pip="pip3"
 # alias python="python3"
@@ -46,7 +48,8 @@ alias gpo="git pull origin $(git rev-parse --abbrev-ref HEAD)"
 # eval "$(mise activate zsh)"
 
 export GIT_ROOT="$HOME/git"
-export HOMEBREW_BUNDLE_FILE="$HOME/.Brewfile"
+export HOMEBREW_BUNDLE_FILE="$HOME/Brewfile"
+export HOMEBREW_BUNDLE_FILE_GLOBAL="$HOME/Brewfile"
 
 # SMAR
 alias cg="cd $HOME/git/core-views/packages/grid-views/"
@@ -55,3 +58,4 @@ export PATH="/Users/jjeng/.volta/bin:$PATH"
 
 alias fdmFull='cd $GIT_ROOT/core-views && source packages/scripts/src/fdmFullCoreViews.sh'
 
+export NODE_EXTRA_CA_CERTS='/Users/jjeng/git/local_development_certs/ZScalerRootCA.pem'

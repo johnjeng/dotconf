@@ -1,0 +1,10 @@
+brew 'git'
+brew 'neovim'
+brew 'ripgrep'
+brew 'fzf'
+brew 'fd'
+brew 'jesseduffield/lazygit/lazygit'
+
+cask 'wezterm'
+cask 'obsidian'
+
