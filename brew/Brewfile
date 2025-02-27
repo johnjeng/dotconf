@@ -3,7 +3,8 @@ brew 'neovim'
 brew 'ripgrep'
 brew 'fzf'
 brew 'fd'
-brew 'jesseduffield/lazygit/lazygit'
+
+tap 'jesseduffield/lazygit'
 
 cask 'wezterm'
 cask 'obsidian'
